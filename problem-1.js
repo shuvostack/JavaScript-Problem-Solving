@@ -7,3 +7,4 @@ function stringReverse(string) {
 
     return join;
 }
+console.log(stringReverse("Shuvo"));
