@@ -1,5 +1,5 @@
-function stringReverse(string) {
-    let split = string.split('');
+function reverseString(str) {
+    let split = str.split('');
 
     const reverse = split.reverse();
 
@@ -7,4 +7,4 @@ function stringReverse(string) {
 
     return join;
 }
-console.log(stringReverse("Shuvo"));
+console.log(reverseString('Hello'));
